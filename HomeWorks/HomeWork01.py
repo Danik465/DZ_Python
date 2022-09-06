@@ -49,7 +49,7 @@ else: print("Введите другие значения, отличные от
 
 n = int(input('Введите число '))
 
-if n==1:
+if n == 1:
     print("Координаты x (0,infinity) , y (0, infinity)")
 elif n == 2:
     print("Координаты x (-infinity,0) , y (0, infinity)")
@@ -84,4 +84,5 @@ while i < n:
 	i += 1
 
 print(f"\nЗначение этого элемента - {fib2}")
+
 
