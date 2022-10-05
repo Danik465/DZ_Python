@@ -8,7 +8,7 @@ import  random
 with open("111.txt", "r+", encoding = 'utf_8') as f:
     for line in f.readlines():
         print(line)
-line = list(filter(lambda x: 'ццц' not in x, line.split()))
+line = list(filter(lambda x: 'абв' not in x, line.split()))
 line = ' '.join(line)
 print(line)
 
